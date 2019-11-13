@@ -23,7 +23,7 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  if hash[key] = 0
+  if hash = 0
     hash = {key => 1}
   end
   # if the provided key is not present in the hash, add it and assign it to the value of 1
