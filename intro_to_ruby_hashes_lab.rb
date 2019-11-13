@@ -19,8 +19,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  # Used together, they will either produce a value on that hash corresponding to the key, or nil by default. Use these two parameters in conjunction to do just that.
-  hash = {key => nil}
+  hash = {key => "Steve"}
 end
 
 def update_counting_hash(hash, key)
